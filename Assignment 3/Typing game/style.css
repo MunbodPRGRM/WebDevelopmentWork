@@ -1,0 +1,24 @@
+/* HTML part */
+body {
+    justify-content: center;
+}
+
+button {
+    width: 150px;
+}
+
+.word-place {
+    margin-top: 250px;
+    margin-bottom: 150px;
+    letter-spacing: 1px;
+    font-size: 60px;
+}
+
+/* JavaScript part */
+.correct-bg {
+    background-color: rgb(96, 224, 96);
+}
+
+.wrong-bg {
+    background-color: rgb(243, 101, 101);
+}

@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    background-color: #6c676833;
+    height: 650px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+ 
+ 
+body {
+      background: linear-gradient(to bottom, #9c27b033, #607D8B);
+}
+h1 {
+  position: relative;
+  text-align: center;
+  color: #353535;
+  font-size: 50px;
+  font-family: "Cormorant Garamond", serif;
+}
+ 
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 18px;
+  color: #676767;
+}
+ 
+.scoreWrap {float: left;}
+.timeWrap {float: right;}
+ 
+.outerWrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+ 
+.bg {
+    background: linear-gradient(0deg, #060e83e3 0%, #0c19b44f 100%);
+}
+ 
+button {
+  margin: 20px;
+  font-size: large;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+}
+ 
+.btn-1 {
+  background: rgb(6,14,131);
+  background: linear-gradient(0deg, #060e83e3 0%, #0c19b44f 100%);
+  border: none;
+}
+.btn-1:hover {
+   background: rgb(0,3,255);
+background: linear-gradient(0deg, rgb(0 3 255 / 27%) 0%, rgba(2,126,251,1) 100%);
+ 
+}
+ 
+.scoreWrap p, .scoreWrap span, .timeWrap p, .timeWrap span {
+    font-size: 30px;
+    color: #000000;
+}
+ 
+.wordsWrap {
+    margin-top: 50px;
+}
+ 
+.words span{
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: #ECF0F1;
+}

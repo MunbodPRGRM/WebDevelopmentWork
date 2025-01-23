@@ -1,0 +1,176 @@
+/**************************** ส่วนที่ 1 **********************************/
+.superbox {
+    width: 1280px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100;
+}
+
+img:hover {
+    filter: opacity(10);
+    transform: scale(1.05);
+}
+
+/**************************** ส่วนที่ 1 **********************************/
+
+/**************************** ส่วนที่ 2 **********************************/
+.box {
+    width: 1280px;
+    height: 30px;
+}
+
+.charcontain {
+    display: flex;
+    gap: 0px;
+}
+
+.headfont {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    line-height: 0;
+}
+
+.favorite-hover {
+    color: white;
+}
+  
+.favorite-hover:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.subfont {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 0;
+}
+
+/**************************** ส่วนที่ 2 **********************************/
+
+/**************************** ส่วนที่ 3 **********************************/
+.bigbox {
+    width: 1280px;
+    height: 484px;
+    margin-top: 50;
+}
+
+.squarecontain {
+    display: flex;
+    gap: 15px;
+}
+
+.square {
+    width: 194px;
+    height: 476px;
+    background-color: #1A1A1A;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.rounded img {
+    width: 194px;
+    height: 287px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bluestar-hover {
+    background-color: #1A1A1A;
+    border: none;
+    cursor: pointer;
+    width: 50;
+    margin-top: 10;
+    height: 30;
+    font-size: 20;
+    text-align: center;
+    color: blue;
+}
+
+.bluestar-hover:hover {
+    background-color: #2C2C2C;
+    border: none;
+    cursor: pointer;
+    width: 50;
+    margin-top: 10;
+    height: 30;
+    font-size: 20;
+    text-align: center;
+    color: white;
+}
+
+.boxfont {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 1;
+    color: white;
+}
+
+.buttonwatchlist {
+    background-color: #30353C;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    width: 170;
+    border-radius: 100px;
+    margin-top: 35;
+}
+
+.buttonwatchlist:hover {
+    background-color: #2C2C2C;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    width: 170;
+    border-radius: 100px;
+    margin-top: 35;
+}
+
+.buttontrailer {
+    background-color: #1A1A1A;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.buttontrailer:hover {
+    background-color: #2C2C2C;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.name-hover {
+    text-decoration: none;
+}
+
+.name-hover:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #30353C;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    width: 160;
+    border-radius: 100px;
+}
+
+.buttoncontain {
+    text-align: center;
+    gap: 0px;
+}
+
+/**************************** ส่วนที่ 3 **********************************/

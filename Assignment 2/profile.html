@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            background-image: url(image/bgtest2.png);
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+            width: 1780px;
+            margin-left: 100px;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.9);
+        }
+
+        .nav-item {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .nav-link {
+            color: inherit;
+        }
+
+        .nav-link:hover {
+            background-color: #e9ecef;
+            border-radius: 20px;
+        }
+
+        .profile-icon {
+            border: 5px solid white;
+            border-radius: 100%;
+            width: 250px;
+            margin-left: 150px;
+            margin-top: -400px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .button-chat {
+            width: 300px;
+            height: 50px;
+            border: none;
+            border-radius: 100px;
+            background-color: aquamarine;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .button-chat:hover {
+            width: 300px;
+            height: 50px;
+            border: none;
+            border-radius: 100px;
+            background-color: rgb(163, 252, 222);
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .box-post {
+            background-color: white;
+            padding: 20px;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="sidebar" style="background-color: white;">
+            <ul class="nav mt-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">
+                        <i class="bi bi-lock-fill"></i>
+                        Login
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">
+                        <i class="bi bi-person-plus-fill"></i>
+                        Register
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">
+                        <i class="bi bi-person-circle"></i>
+                        Profile
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile_setting.html">
+                        <i class="bi bi-gear-fill"></i>
+                        Profile Setting
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="form-container" style="position: absolute; background-color: #F6F6F6;">
+        <div>
+            <img src="image/profileBG.jpg" width="100%" height="400px"">
+        </div>
+        <div style=" background-color: white; width: 100%; height: 200px; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);">
+            <div style="margin-left: 450px;">
+                <br>
+                <h1>
+                    Dreamseeker Laylah
+                    <span style="margin-left: 800px;">
+                        <a href="profile_setting.html">
+                            <i class="bi bi-three-dots" style="color: #b1afaf; font-size: xx-large;"></i>
+                        </a>
+                    </span>
+                </h1>
+                <h6 class="mt-3 mb-3" style="color: #b1afaf;">
+                    CEO at Mitsugoshi Company. and Leader of Shadow Garden
+                </h6>
+                <i class="bi bi-geo-alt-fill" style="color: red;">
+                    <a href="#" style="text-decoration: none; color: #b1afaf;"> 
+                        at Alexandria. Midgar 
+                    </a>
+                </i>
+                <i class="bi bi-facebook" style="color: blue; margin-left: 10px;">
+                    <a href="#" style="text-decoration: none; color: #b1afaf;"> 
+                        Cid Kagenou 
+                    </a>
+                </i>
+                <i class="bi bi-twitter" style="color: #1DA1F2; margin-left: 10px;">
+                    <a href="#" style="text-decoration: none; color: #b1afaf;"> 
+                        Jack the Ripper 
+                    </a>
+                </i>
+                <i class="bi bi-linkedin" style="color: #0A63BC; margin-left: 10px;">
+                    <a href="#" style="text-decoration: none; color: #b1afaf;"> 
+                        John Smith 
+                    </a>
+                </i>
+            </div>
+        </div>
+        <div>
+            <img src="image/profile.jpg" class="profile-icon">
+        </div>
+        <div class="row">
+            <div class="col-md-3" style="margin-left: 100px;">
+                <div>
+                    <i class="bi bi-telephone-fill">
+                        <span style="margin-left: 10px;">
+                            1234-5678-9
+                        </span>
+                        <span style="margin-left: 20px; color: #b1afaf;">
+                            (Office)
+                        </span>
+                    </i><br>
+                    <i class="bi bi-telephone-fill">
+                        <span style="margin-left: 10px;">
+                            9-8765-4321
+                        </span>
+                        <span style="margin-left: 20px; color: #b1afaf;">
+                            (Mobile)
+                        </span>
+                    </i>
+                    <div class="mt-3">
+                        <i class="bi bi-envelope-at-fill">
+                            <span style="margin-left: 10px;">
+                                <a href="#" style="text-decoration: none;">
+                                    66011212165@msu.ac.th
+                                </a>
+                            </span>
+                        </i>
+                    </div>
+                    <div class="mt-3">
+                        <i class="bi bi-gender-ambiguous">
+                            <span style="margin-left: 10px;">
+                                Not spacified
+                            </span>
+                        </i>
+                    </div>
+                    <div class="mt-3">
+                        <i class="bi bi-balloon-fill">
+                            <span style="margin-left: 10px;">
+                                16 May 2548
+                            </span>
+                        </i>
+                    </div>
+                </div>
+                <div style="margin-top: 40px;">
+                    <button class="button-chat">
+                        <i class="bi bi-chat-dots-fill"> 
+                            Chat 
+                        </i>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="box-post">
+                    <div style="margin-bottom: 10px;">
+                        <img src="image/profile.jpg" width="50px" style="border-radius: 100%;">
+                        <span>
+                            Natakrit Nasuwan
+                        </span>
+                    </div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptas sequi reiciendis
+                            voluptatibus totam minus quos, maiores non explicabo expedita dolorum quasi vero rerum vel,
+                            voluptatem ab, recusandae qui! Nam!
+                        </p>
+                        <img src="image/dreamseeker1.jpg" style="border-radius: 10px; width: 100%;">
+                    </div>
+                </div>
+                <div class="box-post">
+                    <div style="margin-bottom: 10px;">
+                        <img src="image/profile.jpg" width="50px" style="border-radius: 100%;">
+                        <span>
+                            Natakrit Nasuwan
+                        </span>
+                    </div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptas sequi reiciendis
+                            voluptatibus totam minus quos, maiores non explicabo expedita dolorum quasi vero rerum vel,
+                            voluptatem ab, recusandae qui! Nam!
+                        </p>
+                        <img src="image/vita1.jpg" style="border-radius: 10px; width: 100%;">
+                    </div>
+                </div>
+                <div class="box-post">
+                    <div style="margin-bottom: 10px;">
+                        <img src="image/profile.jpg" width="50px" style="border-radius: 100%;">
+                        <span>
+                            Natakrit Nasuwan
+                        </span>
+                    </div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptas sequi reiciendis
+                            voluptatibus totam minus quos, maiores non explicabo expedita dolorum quasi vero rerum vel,
+                            voluptatem ab, recusandae qui! Nam!
+                        </p>
+                        <img src="image/hi3event.jpg" style="border-radius: 10px; width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
