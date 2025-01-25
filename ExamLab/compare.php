@@ -83,14 +83,17 @@ if (!empty($_POST['selected_ids'])) {
                     <div class="phone-card">
                         <h4><?php echo $phone->model; ?></h4>
                         <img src="<?php echo $phone->image; ?>" width="200" alt="Phone Image">
-                        <p><strong>ราคา:</strong> <?php echo $phone->price; ?> บาท</p>
-                        <p><strong>CPU:</strong> <?php echo $phone->cpu; ?></p>
-                        <p><strong>RAM:</strong> <?php echo $phone->ram; ?></p>
-                        <p><strong>กล้อง:</strong> <?php echo $phone->camera; ?></p>
-                        <p><strong>จอภาพ:</strong> <?php echo $phone->screen; ?></p>
-                        <p><strong>ขนาด:</strong> <?php echo $phone->size; ?></p>
-                        <p><strong>แบตเตอรี่:</strong> <?php echo $phone->battery; ?></p>
-                        <p><strong>วิดีโอ:</strong> <?php echo $phone->image_video; ?></p>
+                        
+                        <div style="text-align: left;">
+                            <p><strong>ราคา:</strong> <?php echo $phone->price; ?> บาท</p>
+                            <p><strong>CPU:</strong> <?php echo $phone->cpu; ?></p>
+                            <p><strong>RAM:</strong> <?php echo $phone->ram; ?></p>
+                            <p><strong>กล้อง:</strong> <?php echo $phone->camera; ?></p>
+                            <p><strong>จอภาพ:</strong> <?php echo $phone->screen; ?></p>
+                            <p><strong>ขนาด:</strong> <?php echo $phone->size; ?></p>
+                            <p><strong>แบตเตอรี่:</strong> <?php echo $phone->battery; ?></p>
+                            <p><strong>วิดีโอ:</strong> <?php echo $phone->image_video; ?></p>
+                        </div>
                     </div>
                 <?php } ?>
             </div>

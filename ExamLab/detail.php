@@ -64,6 +64,8 @@
         <title>รายละเอียดสินค้า</title>
     </head>
     <body>
+        <h1 class="text-center my-4">CS MSU Phone Shop 2/2567</h1>
+
         <div class="container">
             <?php
             include "data.php";
